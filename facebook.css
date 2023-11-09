@@ -1,0 +1,116 @@
+body{
+    background-color:#efeff3;
+}
+
+
+
+#note{
+    margin-top: -30px;
+    margin-left: 30px;
+    color: #1c1e21;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: SFProDisplay-Regular;
+    font-weight: 0.5;
+}
+.fb_logo{
+width:20rem ;
+font-family: Helvetica, Arial, sans-serif;
+opacity: 0.95;
+}
+
+.all{
+    margin-top: 175px;
+    margin-left: 150px;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    width: 26%;
+    height: 320px;
+    float: right;
+    margin-right: 230px;
+   margin-top: -230px;
+   border-radius:10px;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+}
+form input{
+    width: 320px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 3px;
+    margin-bottom: 15px;
+    font-size: 17px;
+     margin-left: 1px;
+     border: rgb(204, 198, 198) 1px solid;
+}
+::placeholder{
+    padding-left: 3px;
+}
+.button1{
+    background-color: #1877f2;
+    border: #1877f2 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.ink{
+  color:  #1877f2;
+  margin-left: 110px;
+  text-decoration: none;
+ margin-top: 30px;
+
+}
+.ink:hover{
+    text-decoration: underline;
+}
+.button2{
+    background-color: #42B72A;
+    border: #42B72A 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 60%;
+    padding: 11px 11px ;
+    margin-left: 75px;
+    margin-top: 13px;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: #329b1d;
+}
+hr{
+    margin-top: 20px;
+    opacity: 0.4;
+}
+.h4{
+    float: right;
+    margin-top: 130px;
+    color: black;
+    margin-right: -360px;
+}
+.h4 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.h4 a:hover{
+    text-decoration: underline;
+}
+input::after{
+    border-color: #1877f2;
+}
+input.textcontrol{
+    padding-left: 20px;   
+}
+input:focus {
+    border: 5px solid #1877f2;}
